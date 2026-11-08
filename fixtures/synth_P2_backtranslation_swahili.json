@@ -1,0 +1,102 @@
+{
+ "problems": [
+  {
+   "name": "low-resource machine translation",
+   "passage": "We address low-resource machine translation for Swahili using back-translation with mBART."
+  }
+ ],
+ "methods": [
+  {
+   "name": "back-translation",
+   "role": "proposed",
+   "passage": "We address low-resource machine translation for Swahili using back-translation with mBART."
+  },
+  {
+   "name": "mBART",
+   "role": "used",
+   "passage": "We address low-resource machine translation for Swahili using back-translation with mBART."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "OPUS-100",
+   "passage": "We evaluate on OPUS-100 and FLORES-200 with BLEU and chrF."
+  },
+  {
+   "name": "FLORES-200",
+   "passage": "We evaluate on OPUS-100 and FLORES-200 with BLEU and chrF."
+  }
+ ],
+ "contexts": [
+  {
+   "name": "Swahili",
+   "passage": "We address low-resource machine translation for Swahili using back-translation with mBART."
+  }
+ ],
+ "applications": [
+  {
+   "method": "back-translation",
+   "problem": "low-resource machine translation",
+   "passage": "We address low-resource machine translation for Swahili using back-translation with mBART."
+  },
+  {
+   "method": "mBART",
+   "problem": "low-resource machine translation",
+   "passage": "We address low-resource machine translation for Swahili using back-translation with mBART."
+  }
+ ],
+ "evaluations": [
+  {
+   "method": "back-translation",
+   "dataset": "OPUS-100",
+   "passage": "Back-translation reaches 27.0 BLEU on OPUS-100 for Swahili."
+  },
+  {
+   "method": "mBART",
+   "dataset": "FLORES-200",
+   "passage": "mBART alone reaches 25.6 BLEU on FLORES-200 for Swahili."
+  }
+ ],
+ "results": [
+  {
+   "method": "mBART",
+   "dataset": "FLORES-200",
+   "metric": "BLEU",
+   "value": 25.6,
+   "context": "Swahili",
+   "passage": "mBART alone reaches 25.6 BLEU on FLORES-200 for Swahili."
+  },
+  {
+   "method": "back-translation",
+   "dataset": "OPUS-100",
+   "metric": "BLEU",
+   "value": 27.0,
+   "context": "Swahili",
+   "passage": "Back-translation reaches 27.0 BLEU on OPUS-100 for Swahili."
+  },
+  {
+   "method": "back-translation",
+   "dataset": "OPUS-100",
+   "metric": "chrF",
+   "value": 51.3,
+   "context": "Swahili",
+   "passage": "Back-translation also reaches 51.3 chrF on OPUS-100 for Swahili."
+  }
+ ],
+ "limitations": [
+  {
+   "text": "Synthetic data quality depends on the reverse model.",
+   "passage": "The quality of the synthetic data depends on the reverse translation model."
+  }
+ ],
+ "future_work": [
+  {
+   "text": "Investigate back-translation for domain adaptation.",
+   "mentions": [
+    "back-translation",
+    "domain adaptation"
+   ],
+   "passage": "We plan to investigate back-translation for domain adaptation in specialised text."
+  }
+ ]
+}

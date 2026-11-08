@@ -1,0 +1,109 @@
+{
+ "problems": [
+  {
+   "name": "low-resource machine translation",
+   "passage": "We study low-resource machine translation for Swahili and Yoruba."
+  }
+ ],
+ "methods": [
+  {
+   "name": "Transformer",
+   "role": "baseline",
+   "passage": "The Transformer baseline is trained from scratch on the available parallel data."
+  },
+  {
+   "name": "mBART",
+   "role": "used",
+   "passage": "mBART is fine-tuned on the same parallel data for each language."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "FLORES-200",
+   "passage": "We compare a Transformer baseline with mBART fine-tuning on the FLORES-200 dataset."
+  }
+ ],
+ "contexts": [
+  {
+   "name": "Swahili",
+   "passage": "We study low-resource machine translation for Swahili and Yoruba."
+  },
+  {
+   "name": "Yoruba",
+   "passage": "We study low-resource machine translation for Swahili and Yoruba."
+  }
+ ],
+ "applications": [
+  {
+   "method": "Transformer",
+   "problem": "low-resource machine translation",
+   "passage": "We compare a Transformer baseline with mBART fine-tuning on the FLORES-200 dataset."
+  },
+  {
+   "method": "mBART",
+   "problem": "low-resource machine translation",
+   "passage": "We compare a Transformer baseline with mBART fine-tuning on the FLORES-200 dataset."
+  }
+ ],
+ "evaluations": [
+  {
+   "method": "Transformer",
+   "dataset": "FLORES-200",
+   "passage": "On Swahili, mBART reaches 22.4 BLEU on FLORES-200, while the Transformer baseline reaches 17.9 BLEU."
+  },
+  {
+   "method": "mBART",
+   "dataset": "FLORES-200",
+   "passage": "On Swahili, mBART reaches 22.4 BLEU on FLORES-200, while the Transformer baseline reaches 17.9 BLEU."
+  }
+ ],
+ "results": [
+  {
+   "method": "mBART",
+   "dataset": "FLORES-200",
+   "metric": "BLEU",
+   "value": 22.4,
+   "context": "Swahili",
+   "passage": "On Swahili, mBART reaches 22.4 BLEU on FLORES-200, while the Transformer baseline reaches 17.9 BLEU."
+  },
+  {
+   "method": "Transformer",
+   "dataset": "FLORES-200",
+   "metric": "BLEU",
+   "value": 17.9,
+   "context": "Swahili",
+   "passage": "On Swahili, mBART reaches 22.4 BLEU on FLORES-200, while the Transformer baseline reaches 17.9 BLEU."
+  },
+  {
+   "method": "mBART",
+   "dataset": "FLORES-200",
+   "metric": "BLEU",
+   "value": 14.2,
+   "context": "Yoruba",
+   "passage": "On Yoruba, mBART reaches 14.2 BLEU on FLORES-200, while the Transformer baseline reaches 10.8 BLEU."
+  },
+  {
+   "method": "Transformer",
+   "dataset": "FLORES-200",
+   "metric": "BLEU",
+   "value": 10.8,
+   "context": "Yoruba",
+   "passage": "On Yoruba, mBART reaches 14.2 BLEU on FLORES-200, while the Transformer baseline reaches 10.8 BLEU."
+  }
+ ],
+ "limitations": [
+  {
+   "text": "Only BLEU is reported.",
+   "passage": "We report only BLEU, which may not capture morphological errors."
+  }
+ ],
+ "future_work": [
+  {
+   "text": "Study dialectal varieties such as Algerian Arabic.",
+   "mentions": [
+    "Algerian Arabic"
+   ],
+   "passage": "In future work we plan to study dialectal varieties such as Algerian Arabic."
+  }
+ ]
+}

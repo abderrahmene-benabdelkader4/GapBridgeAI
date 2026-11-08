@@ -1,0 +1,90 @@
+{
+ "problems": [
+  {
+   "name": "dialect translation",
+   "passage": "We study dialect translation from Algerian Arabic to English using mBART and back-translation."
+  }
+ ],
+ "methods": [
+  {
+   "name": "mBART",
+   "role": "used",
+   "passage": "We fine-tune mBART on a small parallel corpus of Algerian Arabic."
+  },
+  {
+   "name": "back-translation",
+   "role": "used",
+   "passage": "We then add back-translated data generated from monolingual dialect text."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "MADAR",
+   "passage": "We evaluate on the MADAR dataset with chrF."
+  }
+ ],
+ "contexts": [
+  {
+   "name": "Algerian Arabic",
+   "passage": "We study dialect translation from Algerian Arabic to English using mBART and back-translation."
+  }
+ ],
+ "applications": [
+  {
+   "method": "mBART",
+   "problem": "dialect translation",
+   "passage": "We study dialect translation from Algerian Arabic to English using mBART and back-translation."
+  },
+  {
+   "method": "back-translation",
+   "problem": "dialect translation",
+   "passage": "We study dialect translation from Algerian Arabic to English using mBART and back-translation."
+  }
+ ],
+ "evaluations": [
+  {
+   "method": "mBART",
+   "dataset": "MADAR",
+   "passage": "mBART reaches 38.5 chrF on MADAR for Algerian Arabic."
+  },
+  {
+   "method": "back-translation",
+   "dataset": "MADAR",
+   "passage": "Back-translation reaches 41.2 chrF on MADAR for Algerian Arabic."
+  }
+ ],
+ "results": [
+  {
+   "method": "mBART",
+   "dataset": "MADAR",
+   "metric": "chrF",
+   "value": 38.5,
+   "context": "Algerian Arabic",
+   "passage": "mBART reaches 38.5 chrF on MADAR for Algerian Arabic."
+  },
+  {
+   "method": "back-translation",
+   "dataset": "MADAR",
+   "metric": "chrF",
+   "value": 41.2,
+   "context": "Algerian Arabic",
+   "passage": "Back-translation reaches 41.2 chrF on MADAR for Algerian Arabic."
+  }
+ ],
+ "limitations": [
+  {
+   "text": "Small parallel corpus and chrF-only evaluation.",
+   "passage": "The parallel corpus is small, and we evaluate only with chrF."
+  }
+ ],
+ "future_work": [
+  {
+   "text": "Apply parameter-efficient methods such as LoRA to dialect translation.",
+   "mentions": [
+    "LoRA",
+    "dialect translation"
+   ],
+   "passage": "Future work will apply parameter-efficient methods such as LoRA to dialect translation."
+  }
+ ]
+}

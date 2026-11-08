@@ -1,0 +1,67 @@
+{
+ "problems": [
+  {
+   "name": "domain adaptation",
+   "passage": "We study domain adaptation for Swahili medical translation using back-translation."
+  }
+ ],
+ "methods": [
+  {
+   "name": "back-translation",
+   "role": "proposed",
+   "passage": "We study domain adaptation for Swahili medical translation using back-translation."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "OPUS-100",
+   "passage": "We evaluate on OPUS-100 with BLEU."
+  }
+ ],
+ "contexts": [
+  {
+   "name": "Swahili",
+   "passage": "We study domain adaptation for Swahili medical translation using back-translation."
+  }
+ ],
+ "applications": [
+  {
+   "method": "back-translation",
+   "problem": "domain adaptation",
+   "passage": "We study domain adaptation for Swahili medical translation using back-translation."
+  }
+ ],
+ "evaluations": [
+  {
+   "method": "back-translation",
+   "dataset": "OPUS-100",
+   "passage": "Back-translation reaches 26.5 BLEU on OPUS-100 for Swahili."
+  }
+ ],
+ "results": [
+  {
+   "method": "back-translation",
+   "dataset": "OPUS-100",
+   "metric": "BLEU",
+   "value": 26.5,
+   "context": "Swahili",
+   "passage": "Back-translation reaches 26.5 BLEU on OPUS-100 for Swahili."
+  }
+ ],
+ "limitations": [
+  {
+   "text": "Only Swahili is evaluated.",
+   "passage": "We evaluate only Swahili."
+  }
+ ],
+ "future_work": [
+  {
+   "text": "Study domain adaptation for other African languages such as Yoruba.",
+   "mentions": [
+    "domain adaptation",
+    "Yoruba"
+   ],
+   "passage": "We will study domain adaptation for other African languages such as Yoruba."
+  }
+ ]
+}

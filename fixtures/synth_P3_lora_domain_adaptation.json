@@ -1,0 +1,76 @@
+{
+ "problems": [
+  {
+   "name": "domain adaptation",
+   "passage": "We study domain adaptation and low-resource machine translation for Amharic using LoRA adapters."
+  },
+  {
+   "name": "low-resource machine translation",
+   "passage": "We study domain adaptation and low-resource machine translation for Amharic using LoRA adapters."
+  }
+ ],
+ "methods": [
+  {
+   "name": "LoRA",
+   "role": "proposed",
+   "passage": "We insert LoRA adapters into a pretrained translation model and train only the adapters."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "FLORES-200",
+   "passage": "Experiments use the FLORES-200 dataset."
+  }
+ ],
+ "contexts": [
+  {
+   "name": "Amharic",
+   "passage": "We study domain adaptation and low-resource machine translation for Amharic using LoRA adapters."
+  }
+ ],
+ "applications": [
+  {
+   "method": "LoRA",
+   "problem": "domain adaptation",
+   "passage": "We study domain adaptation and low-resource machine translation for Amharic using LoRA adapters."
+  },
+  {
+   "method": "LoRA",
+   "problem": "low-resource machine translation",
+   "passage": "We study domain adaptation and low-resource machine translation for Amharic using LoRA adapters."
+  }
+ ],
+ "evaluations": [
+  {
+   "method": "LoRA",
+   "dataset": "FLORES-200",
+   "passage": "LoRA reaches 19.8 BLEU on FLORES-200 for Amharic."
+  }
+ ],
+ "results": [
+  {
+   "method": "LoRA",
+   "dataset": "FLORES-200",
+   "metric": "BLEU",
+   "value": 19.8,
+   "context": "Amharic",
+   "passage": "LoRA reaches 19.8 BLEU on FLORES-200 for Amharic."
+  }
+ ],
+ "limitations": [
+  {
+   "text": "Only one language pair is evaluated.",
+   "passage": "We evaluate only one language pair, Amharic to English."
+  }
+ ],
+ "future_work": [
+  {
+   "text": "Extend to dialectal data such as Algerian Arabic.",
+   "mentions": [
+    "Algerian Arabic",
+    "dialect translation"
+   ],
+   "passage": "We plan to extend the study to dialectal data such as Algerian Arabic."
+  }
+ ]
+}

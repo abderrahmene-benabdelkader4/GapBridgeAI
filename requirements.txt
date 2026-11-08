@@ -1,0 +1,14 @@
+streamlit>=1.40
+pymupdf
+groq
+neo4j
+requests
+pandas
+numpy
+scikit-learn
+python-dotenv
+json-repair
+# optional, better retrieval for "Ask the literature" (then set the model name in Settings):
+# sentence-transformers
+# optional, only to run selftest_cypher.py on Linux/macOS:
+# falkordblite

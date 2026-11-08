@@ -1,0 +1,10 @@
+{
+ "Method":  {"mBART": ["mbart-large", "mbart-large-cc25", "multilingual BART"], "back-translation": ["backtranslation", "BT", "back translation"],
+             "LoRA": ["LoRA adapters", "LoRA adapter", "low-rank adaptation", "low-rank adapters"], "Transformer": ["Transformer baseline", "vanilla Transformer"]},
+ "Problem": {"low-resource machine translation": ["low-resource MT", "low resource machine translation", "LRMT"],
+             "dialect translation": ["dialectal translation", "dialect MT", "translation of dialects", "dialect machine translation"],
+             "domain adaptation": ["domain-specific translation", "domain adaptation for machine translation", "domain adaptation in MT"]},
+ "Dataset": {"FLORES-200": ["FLORES", "FLORES200", "FLORES-200 dataset"], "OPUS-100": ["OPUS100", "OPUS"], "MADAR": ["MADAR dataset"]},
+ "Metric":  {"BLEU": ["BLEU score", "sacreBLEU"], "chrF": ["chrF++", "chrf"]},
+ "Context": {"Algerian Arabic": ["Darija", "Algerian Arabic (Darija)", "Algerian dialect"], "Swahili": ["Kiswahili"], "Yoruba": ["Yoruba language"], "Amharic": []}
+}

@@ -1,0 +1,67 @@
+{
+ "problems": [
+  {
+   "name": "low-resource machine translation",
+   "passage": "We apply LoRA adapters to low-resource machine translation for Yoruba."
+  }
+ ],
+ "methods": [
+  {
+   "name": "LoRA",
+   "role": "proposed",
+   "passage": "We apply LoRA adapters to low-resource machine translation for Yoruba."
+  }
+ ],
+ "datasets": [
+  {
+   "name": "FLORES-200",
+   "passage": "We evaluate on FLORES-200 with BLEU."
+  }
+ ],
+ "contexts": [
+  {
+   "name": "Yoruba",
+   "passage": "We apply LoRA adapters to low-resource machine translation for Yoruba."
+  }
+ ],
+ "applications": [
+  {
+   "method": "LoRA",
+   "problem": "low-resource machine translation",
+   "passage": "We apply LoRA adapters to low-resource machine translation for Yoruba."
+  }
+ ],
+ "evaluations": [
+  {
+   "method": "LoRA",
+   "dataset": "FLORES-200",
+   "passage": "LoRA reaches 15.1 BLEU on FLORES-200 for Yoruba."
+  }
+ ],
+ "results": [
+  {
+   "method": "LoRA",
+   "dataset": "FLORES-200",
+   "metric": "BLEU",
+   "value": 15.1,
+   "context": "Yoruba",
+   "passage": "LoRA reaches 15.1 BLEU on FLORES-200 for Yoruba."
+  }
+ ],
+ "limitations": [
+  {
+   "text": "Only BLEU on one test set.",
+   "passage": "We only report BLEU, and only on one test set."
+  }
+ ],
+ "future_work": [
+  {
+   "text": "Evaluate adapter-based translation on Hausa.",
+   "mentions": [
+    "LoRA",
+    "Hausa"
+   ],
+   "passage": "We plan to evaluate adapter-based translation on Hausa."
+  }
+ ]
+}
